@@ -4,5 +4,6 @@ public class TemperatureConverter {
     public void toFahrenheit(int temperatureCelsius){
         double result;
         result=temperatureCelsius*1.8+32;
+        System.out.println(result);
     }
 }
